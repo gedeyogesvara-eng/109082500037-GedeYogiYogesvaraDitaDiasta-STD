@@ -22,5 +22,28 @@ int main() {
     insertFirst(L, P5);
 
     printInfo(L);
+
+    cout << endl;
+
+    address P;
+    deleteFirst(L, P);
+    dealokasi(P);
+
+    deleteLast(L, P);
+    dealokasi(P);
+
+    address Prec = L.First;
+    deleteAfter(L, P, Prec);
+    dealokasi(P);
+
+    printInfo(L);
+    cout << "Jumlah node: " << nbList(L) << endl;
+
+    cout << endl;
+
+    deleteList(L);
+    cout << "List Berhasil Terhapus" << endl;
+    cout << "Jumlah node: " << nbList(L) << endl;
+
     return 0;
 }
