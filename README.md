@@ -1,6 +1,6 @@
 # Praktikum Struktur Data (STD)
 
-## Identitas Mahasiswa
+## Identitas
 - **Nama:** Gede Yogi Yogesvara Dita Diasta
 - **NIM:** 109082500037
 - **Kelas:** S1IF-13-01
