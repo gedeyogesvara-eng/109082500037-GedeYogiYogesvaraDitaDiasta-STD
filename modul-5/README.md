@@ -568,13 +568,13 @@ int main() {
 ### Output Unguided :
 
 ##### Output 1
-![Screenshot Output Unguided 1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/modul-5/img/soal2.png)
+![Output Soal 2](modul-5/img/soal2.png)
 
 ##### Output 2
-![Screenshot Output Unguided 2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/modul-5/img/soal3.png)
+![Output Soal 2](modul-5/img/soal3.png)
 
 ##### Output 3
-![Screenshot Output Unguided 3](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/modul-5/img/soal4.png)
+![Output Soal 2](modul-5/img/soal4.png)
 
 **Penjelasan Unguided:**
 
