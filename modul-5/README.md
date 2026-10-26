@@ -568,13 +568,13 @@ int main() {
 ### Output Unguided :
 
 ##### Output 1
-![Output Soal 2](modul-5/img/soal2.png)
+![Output Soal 2](img/soal2.png)
 
 ##### Output 2
-![Output Soal 2](modul-5/img/soal3.png)
+![Output Soal 2](img/soal3.png)
 
 ##### Output 3
-![Output Soal 2](modul-5/img/soal4.png)
+![Output Soal 2](img/soal4.png)
 
 **Penjelasan Unguided:**
 
