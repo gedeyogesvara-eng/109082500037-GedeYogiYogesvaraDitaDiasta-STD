@@ -35,3 +35,24 @@ void insertFirst(List &L, address P) {
         L.first = P;
     }
 }
+
+address findElm(List L, infotype x) {
+        address P = L.first;
+        while (P != NIL) {
+        if (P->info == x) {
+            return P;
+        }
+        P = P->next;
+    }
+    return NIL;
+}
+
+int sumInfo(List L) {
+    int total = 0;
+    address P = L.first;
+    while (P != NIL) {
+        total = total + P->info;
+        P = P->next;
+    }
+    return total;
+}

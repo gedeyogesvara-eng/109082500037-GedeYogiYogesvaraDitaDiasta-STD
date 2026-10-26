@@ -22,5 +22,9 @@ void dealokasi(address &P);
 void printInfo(List L);
 void insertFirst(List &L, address P);
 
+address findElm(List L, infotype x);
+
+int sumInfo(List L);
+
 #define createlist createList
 #endif

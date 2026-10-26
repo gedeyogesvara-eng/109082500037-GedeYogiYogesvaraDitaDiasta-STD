@@ -13,7 +13,7 @@ int main() {
     P2 = alokasi(0);
     insertFirst(L, P2);
 
-    P3 = alokasi(3);
+    P3 = alokasi(8);
     insertFirst(L, P3);
 
     P4 = alokasi(12);
@@ -23,5 +23,19 @@ int main() {
     insertFirst(L, P5);
 
     printInfo(L);
+
+    cout << endl;
+
+    address P_cari = findElm(L, 8);
+    if (P_cari != NIL) {
+        cout << P_cari->info << " ditemukan dalam list" << endl;
+    } else {
+        cout << "8 tidak ditemukan dalam list" << endl;
+    }
+
+    cout << endl;
+
+    int total = sumInfo(L);
+    cout << "Total info dari kelima elemen adalah " << total << endl;
     return 0;
 }
