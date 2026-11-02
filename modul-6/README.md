@@ -507,7 +507,7 @@ int main() {
 }
 ```
 ### Output Unguided 1 :
-![Screenshot Output Unguided 1](https://github.com/gedeyogesvara-eng/Praktikum-STD-Modul06/blob/main/modul-6/Screenshot-soal1.png)
+![Screenshot Output Unguided 1](https://github.com/gedeyogesvara-eng/109082500037-GedeYogiYogesvaraDitaDiasta-STD/blob/main/modul-6/img/Screenshot-soal1.png)
 
 penjelasan unguided 1
 Program ini membuat doubly linked list untuk data buku yang berisi kodeBuku, judul, dan thnTerbit. Elemen baru dimasukkan di akhir list dengan insertLast. Sebelum dimasukkan, kodeBuku dicek dulu dengan findElm, kalau sudah ada maka muncul pesan "kode buku sudah terdaftar" dan data tidak dimasukkan. Untuk menampilkan data, printInfo berjalan dari last ke first lewat pointer prev sehingga hasilnya tercetak terbalik dari urutan input.
@@ -528,7 +528,7 @@ address findElm(List L, infotype x) {
 }
 ```
 ### Output Unguided 2 :
-![Screenshot Output Unguided 2](https://github.com/gedeyogesvara-eng/Praktikum-STD-Modul06/blob/main/modul-6/Screenshot-soal2.png)
+![Screenshot Output Unguided 2](https://github.com/gedeyogesvara-eng/109082500037-GedeYogiYogesvaraDitaDiasta-STD/blob/main/modul-6/img/Screenshot-soal2.png)
 
 penjelasan unguided 2
 Fungsi findElm berjalan dari first lewat pointer next dan membandingkan kodeBuku tiap elemen dengan kode yang dicari. Jika ketemu dikembalikan address elemennya, jika tidak ketemu dikembalikan Nil. Di main.cpp, kalau hasilnya bukan Nil maka data buku ditampilkan, kalau Nil maka muncul pesan data tidak ditemukan.
@@ -578,7 +578,7 @@ void deleteAfter(address Prec, address &P) {
 }
 ```
 ### Output Unguided 3 :
-![Screenshot Output Unguided 3](https://github.com/gedeyogesvara-eng/Praktikum-STD-Modul06/blob/main/modul-6/Screenshot-soal3.png)
+![Screenshot Output Unguided 3](https://github.com/gedeyogesvara-eng/109082500037-GedeYogiYogesvaraDitaDiasta-STD/blob/main/modul-6/img/Screenshot-soal3.png)
 
 penjelasan unguided 3
 Elemen yang mau dihapus dicari dulu dengan findElm, lalu dilihat posisinya. Kalau di awal dipakai deleteFirst, kalau di akhir dipakai deleteLast, dan kalau di tengah dipakai deleteAfter dengan Prec berupa elemen sebelumnya (target->prev). Setelah dilepas dari list, elemen didealokasi. Pada contoh, B003 berada di tengah sehingga dihapus dengan deleteAfter, dan list tersisa B004 dan B001.
