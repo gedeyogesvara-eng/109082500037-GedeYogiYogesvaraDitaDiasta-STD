@@ -88,3 +88,14 @@ void pushAscending(Stack &S, infotype x) {
         push(S, val);
     }
 }
+
+void getInputStream(Stack &S) {
+    char ch;
+    // Baca input terus menerus sampai menemukan newline (enter)
+    while (cin.get(ch) && ch != '\n') {
+        // Hanya push karakter angka (0-9) dengan konversi karakter ke nilai integer
+        if (ch >= '0' && ch <= '9') {
+            push(S, ch - '0');
+        }
+    }
+}

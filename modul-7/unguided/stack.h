@@ -20,5 +20,7 @@ void balikStack(Stack &S);
 
 void pushAscending(Stack &S, infotype x);
 
+void getInputStream(Stack &S);
+
 
 #endif

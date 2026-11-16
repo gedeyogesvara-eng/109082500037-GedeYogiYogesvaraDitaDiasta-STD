@@ -34,4 +34,16 @@ int main() {
     cout << "balik stack" << endl;
     balikStack(S2);
     printInfo(S2);
+
+    cout << "Hello world!" << endl;
+    Stack S3;
+    createStack(S3);
+    
+    getInputStream(S3);
+    printInfo(S3);
+    cout << "balik stack" << endl;
+    balikStack(S3);
+    printInfo(S3);
+
+    return 0;
 }
